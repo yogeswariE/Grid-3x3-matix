@@ -1,0 +1,19 @@
+.box{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px;
+    
+    
+}
+.boxx{
+    display: flex;
+    height: 500px;
+    
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.boxx>.box>div{
+    border: 0.5px solid rgb(3, 3, 3);
+}
